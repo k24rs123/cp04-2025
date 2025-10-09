@@ -156,8 +156,6 @@
     var rest = 0;
     var etime = 0;
 
-
-    
     // ボタンの初期設定
     function init(){
         $('#btnA').prop('disabled', false);
@@ -177,15 +175,13 @@
         };
         var audio = new Audio();
         audio.src = "pin.wav";
-        audio.play();
-        
-        
+        audio.play(); 
     }
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
-        
-        
+        active = true;
+        startTime = new Date();
     }
 
     // ButtonBがクリックされた時の処理
