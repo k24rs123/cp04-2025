@@ -64,5 +64,9 @@
         font-size: 30px;
         position:absolute; top:450px; left:190px; width:80px; height:40px;   
     }
+
+    body {
+    background-color: #f0f8ff; /* 明るい青っぽい背景 */
+    }
     
     input[type=number] {text-align: right;}
