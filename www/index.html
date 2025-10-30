@@ -138,8 +138,8 @@
     // 残り秒数アナログ表示
     function analog(rest){
         var h = parseInt(rest/3600);
-        var m = parseInt((rest-h*3600)/60);
-        var s = parseInt(rest-h*3600-m*60);
+        var m = parseInt(rest/60);
+        var s = parseInt(rest - m*60);
         clock(h,m,s,true);
 
     }
